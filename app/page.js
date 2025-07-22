@@ -10,6 +10,7 @@ export default function Home() {
       <Hero/>
       <PostHero/>
       <About/>
+      <div className="h-[20vh]"></div>
 
     </div>
   );
