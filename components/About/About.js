@@ -50,7 +50,7 @@ export default function About() {
         <div className="flex justify-between">
           <div className="flex flex-col">
             <div className="overflow-hidden" ref={ref1}>
-                <ScrollSlideIn delay={2} start = {0.2} end={0.5}>
+                <ScrollSlideIn delay={2} start = {0.2} end={0.3}>
                     <p className="text-red-500 text-4xl tracking-tighter font-medium w-[15rem] mt-[3rem]">
                     Innovation and Adaptability
                     </p>
@@ -62,7 +62,7 @@ export default function About() {
             </div>
 
             <div className="overflow-hidden" ref={ref1}>
-            <ScrollSlideIn delay={0.5} start = {-0.2} end={0.3}>
+            <ScrollSlideIn delay={0.5} start = {-0.2} end={0.1}>
                 <p className="text-red-500 text-4xl tracking-tighter font-medium w-[18rem] mt-[3rem]">
                     Customer-Centric Excellence
                 </p>
@@ -76,7 +76,7 @@ export default function About() {
 
           <div>
             <div className="mt-[3rem] overflow-hidden" ref={ref1}>
-                <ScrollSlideIn delay={0.5} start = {0.2} end={0.5}>
+                <ScrollSlideIn delay={0.5} start = {0} end={0.3}>
                     <p className="text-2xl w-[22rem]">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
                     tellus, luctus nec ullamcorper mattis,.
