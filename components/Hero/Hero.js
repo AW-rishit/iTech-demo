@@ -5,7 +5,7 @@ import CountUp from "./Countup";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col gap-[2rem] w-[90vw] m-auto mt-[11rem]">
+    <div className="flex flex-col gap-[2rem] w-[90vw] m-auto mt-[16rem]">
       {/* Heading Reveal Container */}
       <div className="overflow-hidden w-[40rem]">
         <motion.p

@@ -4,7 +4,7 @@ import PostHero from "@/components/PostHero/PostHero";
 
 export default function Home() {
   return (
-    <div>
+    <div className="relative">
       <Navbar/>
       <Hero/>
       <PostHero/>
