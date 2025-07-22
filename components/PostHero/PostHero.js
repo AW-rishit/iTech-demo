@@ -47,7 +47,7 @@ export default function PostHero(){
             <div className="overflow-hidden" ref={ref3}>
             
                 <div className="flex ml-[-3rem]">
-                    <img src="/assets/7090038.jpg" className="h-[18rem] mt-[-3rem] "/>
+                    <img src="/assets/test1.svg" className="h-[18rem] mt-[-2.5rem] "/>
                     <motion.div
                         initial={{ x: "100%" }}
                         animate={isInView2 ? { x: 0 } : {}}

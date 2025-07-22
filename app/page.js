@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar/Navbar";
 import Hero from "@/components/Hero/Hero";
 import PostHero from "@/components/PostHero/PostHero";
+import About from "@/components/About/About";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar/>
       <Hero/>
       <PostHero/>
+      <About/>
 
     </div>
   );
